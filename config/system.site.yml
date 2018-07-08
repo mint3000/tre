@@ -1,0 +1,14 @@
+uuid: 134e6906-cb6b-490e-82c0-222a6c0f2b59
+name: tre
+mail: mintdesign3000@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
