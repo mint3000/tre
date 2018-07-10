@@ -1,0 +1,22 @@
+uuid: dc331ab7-dedb-47e4-9e4c-392a73618829
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - tre
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: tre_search
+theme: tre
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

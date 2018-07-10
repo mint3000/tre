@@ -11,6 +11,10 @@
 /web/profiles/contrib/
 /web/private/scripts/quicksilver
 
+/web/themes/custom/tre/node_modules
+/web/themes/custom/tre/css
+/web/themes/custom/tre/js
+
 # Ignore scaffold files
 web/.csslintrc
 web/.editorconfig

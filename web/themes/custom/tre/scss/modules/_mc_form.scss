@@ -1,0 +1,46 @@
+.mc-form-container {
+  background: $tre-white;
+  margin: 0 auto;
+  max-width: 590px;
+}
+
+.mc-scroll {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.mc-form {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+
+  .mailchimp-newsletter-mergefields {
+    width: 100%;
+  }
+
+  label {
+    display: none;
+  }
+
+  [type='email'] {
+    border-radius: 24px;
+    margin-right: 0.5rem;
+    width: 72%;
+  }
+
+  .js-form-submit {
+    background-color: $tre-purple;
+    border-radius: 24px;
+    color: $white;
+    font-family: 'Yrsa', serif;
+    font-weight: 500;
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+    width: 25%;
+  }
+}

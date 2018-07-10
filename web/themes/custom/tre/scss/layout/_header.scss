@@ -1,0 +1,61 @@
+// Non-modular or client styles for .l-header region.
+header {
+  margin: 1.5rem 0 0 1rem;
+  padding-bottom: 1.5rem;
+
+  .columns {
+    div {
+      align-items: center;
+      display: flex;
+      flex-flow: column wrap;
+      @include breakpoint(medium) {
+        flex-flow: row nowrap;
+      }
+
+      .cta-container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+      }
+    }
+
+    .block-tre-main-menu {
+      justify-self: center;
+
+      @include breakpoint(medium) {
+        margin-left: auto;
+      }
+
+      a {
+        color: $tre-purple;
+        font-size: rem-calc(18);
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    }
+
+    .social-container {
+      flex-flow: row nowrap;
+      justify-content: center;
+      margin-left: 1rem;
+
+      a {
+        height: 32px;
+        margin: auto 0.5rem;
+      }
+    }
+
+    .button {
+      align-items: center;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      margin-left: 1.5rem;
+    }
+  }
+}
+
+.block-tre-branding {
+  max-height: 75px;
+  max-width: 75px;
+}

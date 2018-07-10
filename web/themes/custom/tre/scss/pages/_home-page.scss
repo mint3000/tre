@@ -1,0 +1,117 @@
+.path-frontpage {
+  .home-content-container {
+    width: 100%;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .home-panel {
+    align-items: center;
+    bottom: -100vh;
+    display: none;
+    flex-flow: column nowrap;
+    justify-content: center;
+    min-height: calc(100vh - 222px);
+    opacity: 0;
+    padding: 2rem 0;
+    position: relative;
+    width: 100%;
+
+    @include breakpoint(medium) {
+      min-height: calc(100vh - 116px);
+    }
+
+    &.home-1 {
+      opacity: 1;
+    }
+
+    &.active {
+      bottom: 0;
+      display: flex;
+    }
+
+    .bottom-arrow {
+      bottom: 2rem;
+      left: 0;
+      position: absolute;
+      right: 0;
+      text-align: center;
+      width: 100%;
+
+      button {
+        outline: none;
+      }
+    }
+  }
+
+  .home-2 {
+    background-color: $tre-orange;
+
+    .columns {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .home-3 {
+    background-color: $tre-purple;
+  }
+
+  h1 {
+    color: $tre-orange;
+    display: block;
+    font-family: 'Yrsa', serif;
+    font-size: rem-calc(60);
+    line-height: rem-calc(65);
+    margin-bottom: 3rem;
+    width: 100%;
+
+    em {
+      color: $tre-purple;
+      font-family: 'suomi', cursive;
+      font-size: rem-calc(130);
+      line-height: rem-calc(130);
+      @include breakpoint(medium) {
+        font-size: rem-calc(259);
+      }
+    }
+
+    @include breakpoint(medium) {
+      font-size: rem-calc(120);
+      line-height: 11.5rem;
+    }
+  }
+
+  h2 {
+    color: $tre-purple;
+    font-family: 'Yrsa', serif;
+    font-size: rem-calc(60);
+    line-height: rem-calc(60);
+    text-align: center;
+
+    @include breakpoint(medium) {
+      font-size: rem-calc(100);
+      line-height: rem-calc(100);
+    }
+
+    em {
+      color: $tre-white;
+      font-family: 'suomi', cursive;
+      font-size: rem-calc(142);
+    }
+  }
+
+  .arrow {
+    height: 69px;
+    position: relative;
+    top: -11px;
+    width: 70px;
+  }
+
+  figcaption {
+    color: $tre-white;
+    display: block;
+    padding: 2rem 0 0;
+  }
+}

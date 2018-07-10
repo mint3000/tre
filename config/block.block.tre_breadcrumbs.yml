@@ -1,0 +1,22 @@
+uuid: 399fa9fe-95c8-4a29-8a4e-8be1afc9d858
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - tre
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: tre_breadcrumbs
+theme: tre
+region: meta_header
+weight: -3
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

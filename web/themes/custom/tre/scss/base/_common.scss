@@ -1,0 +1,17 @@
+// Common abstract classes to extend or parametrics are stored here.
+
+// Example parametrics.
+// ------------------------------------------------------
+// %font-FONTNAME   {}
+// %font-sans-serif { font-family: sans-serif; }
+// %font-serif      { font-family: serif; }
+@font-face {
+  font-family: 'suomi';
+  src: url('../fonts/suomi_-_suomihand-script-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/suomi_-_suomihand-script-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/suomi_-_suomihand-script-webfont.woff2') format('woff2'),
+    url('../fonts/suomi_-_suomihand-script-webfont.woff') format('woff'),
+    url('../fonts/suomi_-_suomihand-script-webfont.ttf') format('truetype'),
+    url('../fonts/suomi_-_suomihand-script-webfont.svg#suomi') format('svg'); /* Legacy iOS */
+}

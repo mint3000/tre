@@ -1,0 +1,38 @@
+// Non-modular or client styles for the .l-content region.
+body {
+  font-family: 'Yrsa', serif;
+}
+
+p {
+  color: $tre-grey;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.home-content-container {
+  .block-tre-content {
+    margin: 0 auto;
+    max-width: 590px;
+  }
+}
+
+.social-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  a {
+    display: block;
+    width: 32px;
+  }
+}
+
+.flex-box {
+  display: flex;
+
+  &.v-center {
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}

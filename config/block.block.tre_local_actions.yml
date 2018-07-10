@@ -1,0 +1,20 @@
+uuid: 8d44d8ea-c02e-485a-b93b-417b1d5c5c98
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tre
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: tre_local_actions
+theme: tre
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
