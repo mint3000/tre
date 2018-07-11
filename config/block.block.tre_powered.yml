@@ -1,0 +1,22 @@
+uuid: 812ce73f-b083-4ed7-811f-9b76dbffd5f1
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - tre
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: tre_powered
+theme: tre
+region: meta_header
+weight: -1
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

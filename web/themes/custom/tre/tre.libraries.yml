@@ -1,0 +1,14 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/tre.css: {}
+  # js:
+  #   js/tre.js: {}
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Yrsa:400,500': { type: external }
+homepage:
+  js:
+    js/homepage.js: {}

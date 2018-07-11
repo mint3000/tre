@@ -1,0 +1,16 @@
+name: tre
+recipe: pantheon
+config:
+  framework: drupal8
+  site: tre
+  id: c454dff1-65c3-45c0-9b6f-c9a028680cde
+services:
+  node:
+    type: node:8.9
+    globals:
+      gulp-cli: "latest"
+tooling:
+  node:
+    service: node
+  npm:
+    service: node
