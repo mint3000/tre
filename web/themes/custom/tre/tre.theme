@@ -27,22 +27,18 @@ function tre_preprocess_html(&$variables) {
  *
  * Add template suggestions and classes
  */
-function tre_preprocess_node(&$variables) {
-  kint($variables);
-}
+function tre_preprocess_node(&$variables) {}
 
 /**
  * Implements template_preprocess_page
  *
  * Add convenience variables and template suggestions
  */
-function tre_preprocess_page(&$variables) {
-}
+function tre_preprocess_page(&$variables) {}
 
 /**
  * Implements template_preprocess_views_view().
  */
 function tre_preprocess_views_view(&$variables) {}
 
-function tre_preprocess_page_title(&$variables) {
-}
+function tre_preprocess_page_title(&$variables) {}

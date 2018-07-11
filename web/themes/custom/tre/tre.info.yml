@@ -21,8 +21,8 @@ regions:
   page_bottom: 'Page bottom'
   highlighted: Highlighted
   content: Content
-  sidebar_first: 'Left Sidebar'
-  sidebar_second: 'Right Sidebar'
+  # sidebar_first: 'Left Sidebar'
+  # sidebar_second: 'Right Sidebar'
   footer_first: 'Footer first column'
   footer_middle: 'Footer middle column'
   footer_last: 'Footer last column'

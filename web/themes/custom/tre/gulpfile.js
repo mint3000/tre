@@ -128,7 +128,7 @@ gulp.task('clean:css', function() {
 /** Transpile / build ES6 */
 gulp.task('babel', function() {
   return gulp
-    .src('./src/**/*.js')
+    .src('./src/modules/**/*.js')
     .pipe(named())
     .pipe(
       webpack({
