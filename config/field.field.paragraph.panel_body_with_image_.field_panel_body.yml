@@ -1,0 +1,21 @@
+uuid: 5e9e7cde-03e2-40f1-99e1-78f649acb23c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_panel_body
+    - paragraphs.paragraphs_type.panel_body_with_image_
+  module:
+    - text
+id: paragraph.panel_body_with_image_.field_panel_body
+field_name: field_panel_body
+entity_type: paragraph
+bundle: panel_body_with_image_
+label: 'Panel Body'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

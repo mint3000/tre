@@ -1,0 +1,9 @@
+uuid: baebfb67-ddc5-4453-bd09-9e876252453d
+langcode: en
+status: true
+dependencies: {  }
+id: lead_copy
+label: 'Lead Copy'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

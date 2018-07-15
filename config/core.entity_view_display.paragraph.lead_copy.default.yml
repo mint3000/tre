@@ -1,0 +1,22 @@
+uuid: 31a57a43-6767-49f7-ac05-96ae3ab7140c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lead_copy.field_lead_body
+    - paragraphs.paragraphs_type.lead_copy
+  module:
+    - text
+id: paragraph.lead_copy.default
+targetEntityType: paragraph
+bundle: lead_copy
+mode: default
+content:
+  field_lead_body:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

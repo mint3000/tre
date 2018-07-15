@@ -7,5 +7,5 @@ dependencies:
 id: footer_logo
 title: 'Footer Logo'
 content:
-  value: "<p><img alt=\"The Ring Effect logo\" data-entity-type=\"file\" data-entity-uuid=\"01080b99-77aa-4749-ae5c-f5c772cb3979\" src=\"/sites/default/files/inline-images/footer-logo.png\" /></p>\r\n"
+  value: "<p><img alt=\"The Ring Effect logo\" data-entity-type=\"file\" data-entity-uuid=\"395a82ec-46d2-4d4b-862f-f1c111ab46cd\" src=\"/sites/default/files/inline-images/footer-logo.png\" /></p>\r\n"
   format: basic_html

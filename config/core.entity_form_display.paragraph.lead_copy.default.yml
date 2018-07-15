@@ -1,0 +1,26 @@
+uuid: cd77be07-31e8-4799-834a-58385e8c8672
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lead_copy.field_lead_body
+    - paragraphs.paragraphs_type.lead_copy
+  module:
+    - text
+id: paragraph.lead_copy.default
+targetEntityType: paragraph
+bundle: lead_copy
+mode: default
+content:
+  field_lead_body:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,21 @@
+uuid: 3cac040c-23a1-4d2d-b9da-c455bd76adb1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lead_body
+    - paragraphs.paragraphs_type.lead_copy
+  module:
+    - text
+id: paragraph.lead_copy.field_lead_body
+field_name: field_lead_body
+entity_type: paragraph
+bundle: lead_copy
+label: 'Lead Body'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -70,6 +70,10 @@ $flex: false;
 // Optional.
 // @import 'base/elements';
 
+// Fields
+@import 'fields/field-lead-body';
+@import 'fields/field-body';
+
 // Layout
 // Each section of the document has it's own partial seperated out to improve
 // developer experience. Additionally, grids can be declared in layouts as well.
@@ -88,6 +92,11 @@ $flex: false;
 
 // Pages
 @import 'pages/home-page';
+@import 'pages/basic-page';
+
+// Paragraphs
+@import 'paragraphs/button-comparison';
+@import 'paragraphs/panel-body-with-image';
 
 // States
 // @import 'states/collapse';

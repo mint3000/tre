@@ -1,0 +1,9 @@
+uuid: 88e2cbc6-45d8-4284-8eaa-ed76d4f99243
+langcode: en
+status: true
+dependencies: {  }
+id: button_comparison
+label: 'Button Comparison'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

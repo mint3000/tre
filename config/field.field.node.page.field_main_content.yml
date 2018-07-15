@@ -1,0 +1,62 @@
+uuid: 7c360165-dc46-4ccf-92f7-8cfde844440a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_main_content
+    - node.type.page
+    - paragraphs.paragraphs_type.body
+    - paragraphs.paragraphs_type.button_comparison
+    - paragraphs.paragraphs_type.flexible_grid
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.lead_copy
+    - paragraphs.paragraphs_type.panel_body_with_image_
+  module:
+    - entity_reference_revisions
+id: node.page.field_main_content
+field_name: field_main_content
+entity_type: node
+bundle: page
+label: 'Main Content'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      lead_copy: lead_copy
+      body: body
+      button_comparison: button_comparison
+      flexible_grid: flexible_grid
+      image: image
+      panel_body_with_image_: panel_body_with_image_
+    target_bundles_drag_drop:
+      lead_copy:
+        enabled: true
+        weight: 9
+      body:
+        enabled: true
+        weight: 10
+      button_comparison:
+        enabled: true
+        weight: 11
+      card_image_with_cta_:
+        weight: 12
+        enabled: false
+      card_image_with_text_:
+        weight: 13
+        enabled: false
+      flexible_grid:
+        enabled: true
+        weight: 14
+      image:
+        enabled: true
+        weight: 15
+      panel_body_with_image_:
+        enabled: true
+        weight: 16
+field_type: entity_reference_revisions

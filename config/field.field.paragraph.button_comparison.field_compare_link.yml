@@ -1,0 +1,23 @@
+uuid: fb0dbe08-92a6-43f7-b539-d8f0f51d75f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_compare_link
+    - paragraphs.paragraphs_type.button_comparison
+  module:
+    - link
+id: paragraph.button_comparison.field_compare_link
+field_name: field_compare_link
+entity_type: paragraph
+bundle: button_comparison
+label: 'Link One'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

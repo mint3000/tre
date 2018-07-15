@@ -1,0 +1,81 @@
+.paragraph--type--panel-body-with-image- {
+  .theme-purple {
+    background-color: $tre-purple;
+
+    h1 {
+      color: $tre-orange;
+
+      em {
+        color: $tre-white;
+      }
+    }
+  }
+
+  .theme-orange {
+    background-color: $tre-orange;
+
+    h1 {
+      color: $tre-orange;
+
+      em {
+        color: $tre-white;
+      }
+    }
+
+    h2 {
+      color: $tre-purple;
+
+      em {
+        color: $tre-white;
+      }
+    }
+  }
+
+  .field-paragraph--field-panel-body {
+    img {
+      max-width: 100px;
+    }
+  }
+
+  h1 {
+    display: block;
+    font-family: 'Yrsa', serif;
+    font-size: rem-calc(48);
+    font-weight: 400;
+    line-height: rem-calc(52);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+
+    em {
+      font-family: 'suomi', cursive;
+      font-size: rem-calc(60);
+      line-height: rem-calc(60);
+      @include breakpoint(medium) {
+        font-size: rem-calc(60);
+      }
+    }
+  }
+
+  h2 {
+    display: block;
+    font-family: 'Yrsa', serif;
+    font-size: rem-calc(48);
+    font-weight: 400;
+    line-height: rem-calc(52);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+
+    em {
+      font-family: 'suomi', cursive;
+      font-size: rem-calc(60);
+      line-height: rem-calc(60);
+      @include breakpoint(medium) {
+        font-size: rem-calc(60);
+      }
+    }
+  }
+}
