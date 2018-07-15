@@ -112,7 +112,7 @@ jobs:
             
             - run:
                 name: build FE
-                command: node -v && npm install -g gulp gulp-cli && cd web/themes/custom/tru && npm install && npm run build
+                command: node -v && npm install -g gulp gulp-cli && cd web/themes/custom/tre && npm install && npm run build
 
             - run:
                 name: prepare database for site-under test
