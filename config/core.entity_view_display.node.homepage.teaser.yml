@@ -1,0 +1,22 @@
+uuid: 8ebcb167-0162-48aa-a635-e8be44680aff
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.homepage.field_flex_grid
+    - field.field.node.homepage.field_sub_title
+    - node.type.homepage
+  module:
+    - user
+id: node.homepage.teaser
+targetEntityType: node
+bundle: homepage
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_flex_grid: true
+  field_sub_title: true

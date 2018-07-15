@@ -1,0 +1,30 @@
+uuid: 39251196-6347-471d-9187-d7e3a5633d1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.flexible_grid.field_content
+    - paragraphs.paragraphs_type.flexible_grid
+  module:
+    - paragraphs
+id: paragraph.flexible_grid.default
+targetEntityType: paragraph
+bundle: flexible_grid
+mode: default
+content:
+  field_content:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

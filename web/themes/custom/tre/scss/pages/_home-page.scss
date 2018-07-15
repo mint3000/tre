@@ -1,61 +1,79 @@
+@keyframes arrow {
+  0%,
+  100% {
+    top: 10px;
+  }
+
+  50% {
+    top: 30px;
+  }
+}
+
 .path-frontpage {
-  .home-content-container {
-    width: 100%;
-  }
-
-  .row {
-    width: 100%;
-  }
-
-  .home-panel {
+  .block-tre-page-title {
     align-items: center;
-    bottom: -100vh;
-    display: none;
+    display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    min-height: calc(100vh - 222px);
-    opacity: 0;
-    padding: 2rem 0;
     position: relative;
-    width: 100%;
 
-    @include breakpoint(medium) {
-      min-height: calc(100vh - 116px);
-    }
+    .scroll {
+      color: $black;
+      display: inline-block;
+      font-size: 1rem;
+      height: 100px;
+      left: 50%;
+      margin-top: 20px;
+      position: relative;
+      transform: translateX(-50%);
 
-    &.home-1 {
-      opacity: 1;
-    }
-
-    &.active {
-      bottom: 0;
-      display: flex;
-    }
-
-    .bottom-arrow {
-      bottom: 2rem;
-      left: 0;
-      position: absolute;
-      right: 0;
-      text-align: center;
-      width: 100%;
-
-      button {
-        outline: none;
+      &::after {
+        // -ms-transform: rotate(45deg);
+        // -webkit-animation: 3s arrow infinite ease;
+        // -webkit-transform: rotate(45deg);
+        animation: 3s arrow infinite ease;
+        border-bottom: 2px solid $tre-orange;
+        border-right: 2px solid $tre-orange;
+        content: '';
+        height: 40px;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        transform: rotate(45deg);
+        width: 40px;
       }
     }
   }
 
-  .home-2 {
+  #block-tre-content {
     background-color: $tre-orange;
+    padding: 2rem 0 0;
 
-    .columns {
-      margin-bottom: 2rem;
+    h2 {
+      margin-top: -3rem;
     }
-  }
 
-  .home-3 {
-    background-color: $tre-purple;
+    .home-secondary-container {
+      align-items: center;
+      display: flex;
+      flex-flow: column nowrap;
+      height: 100vh;
+      justify-content: space-between;
+    }
+
+    .field-node--field-flex-grid {
+      margin-top: -5rem;
+    }
+
+    .paragraph--type--flexible-grid {
+      text-align: center;
+
+      .button {
+        margin-top: 2rem;
+      }
+    }
   }
 
   h1 {
@@ -63,8 +81,10 @@
     display: block;
     font-family: 'Yrsa', serif;
     font-size: rem-calc(60);
+    font-weight: 400;
     line-height: rem-calc(65);
     margin-bottom: 3rem;
+    text-align: center;
     width: 100%;
 
     em {
@@ -100,13 +120,6 @@
       font-family: 'suomi', cursive;
       font-size: rem-calc(142);
     }
-  }
-
-  .arrow {
-    height: 69px;
-    position: relative;
-    top: -11px;
-    width: 70px;
   }
 
   figcaption {

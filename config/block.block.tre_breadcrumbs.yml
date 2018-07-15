@@ -11,7 +11,7 @@ _core:
 id: tre_breadcrumbs
 theme: tre
 region: meta_header
-weight: -3
+weight: -7
 provider: null
 plugin: system_breadcrumb_block
 settings:

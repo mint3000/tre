@@ -1,0 +1,9 @@
+uuid: 2c8f1d87-fb65-41b4-a007-8abfb46fc77c
+langcode: en
+status: true
+dependencies: {  }
+id: card_image_with_cta_
+label: 'Card (Image with CTA)'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

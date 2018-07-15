@@ -1,0 +1,29 @@
+uuid: 566d2737-254f-491c-8961-6941bf56b01f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content
+    - paragraphs.paragraphs_type.flexible_grid
+  module:
+    - entity_reference_revisions
+id: paragraph.flexible_grid.field_content
+field_name: field_content
+entity_type: paragraph
+bundle: flexible_grid
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      flexible_grid:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

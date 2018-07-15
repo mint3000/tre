@@ -1,0 +1,32 @@
+uuid: ad590054-55a8-45fd-a32e-1a4e62796d0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.header_blocks
+    - field.field.block_content.header_blocks.body
+  module:
+    - text
+id: block_content.header_blocks.default
+targetEntityType: block_content
+bundle: header_blocks
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -71,8 +71,9 @@ $global-weight-normal: normal;
 $global-weight-bold: bold;
 $global-radius: 0;
 $global-text-direction: ltr;
-$global-flexbox: true;
+$global-flexbox: false;
 $print-transparent-backgrounds: true;
+$xy-grid: true;
 
 @include add-foundation-colors;
 
@@ -648,5 +649,8 @@ $topbar-unstack-breakpoint: medium;
 
 $tre-white: #fff;
 $tre-grey: #999;
+$tre-dark-grey: #666;
+$tre-med-grey: #8b8b8b;
+$tre-light-grey: #e8e8e8;
 $tre-orange: #ffb349;
 $tre-purple: #612750;

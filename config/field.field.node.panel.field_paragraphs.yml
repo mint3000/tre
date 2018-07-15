@@ -1,0 +1,31 @@
+uuid: e2fbddd2-b23a-456f-bcc0-6ea29c166c6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs
+    - node.type.panel
+    - paragraphs.paragraphs_type.flexible_grid
+  module:
+    - entity_reference_revisions
+id: node.panel.field_paragraphs
+field_name: field_paragraphs
+entity_type: node
+bundle: panel
+label: Paragraphs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      flexible_grid: flexible_grid
+    target_bundles_drag_drop:
+      flexible_grid:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

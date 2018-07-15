@@ -1,4 +1,30 @@
 // Non-modular or client styles for .l-footer region.
+footer {
+  background-color: $tre-light-grey;
+  color: $tre-dark-grey;
+  padding: 1rem 0 3rem;
+
+  p {
+    color: $tre-dark-grey;
+    font-size: 1rem;
+  }
+
+  .block-footerlogo {
+    max-width: 50px;
+    margin-right: 1rem;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  #footer-first {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+}
 .bottom-bar {
   margin-bottom: 2rem;
   text-align: center;

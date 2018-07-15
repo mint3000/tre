@@ -1,7 +1,6 @@
 // Non-modular or client styles for .l-header region.
 header {
-  margin: 1.5rem 0 0 1rem;
-  padding-bottom: 1.5rem;
+  padding: 1.5rem 0;
 
   .columns {
     div {
@@ -37,7 +36,10 @@ header {
     .social-container {
       flex-flow: row nowrap;
       justify-content: center;
-      margin-left: 1rem;
+
+      @include breakpoint(medium) {
+        margin-left: 1rem;
+      }
 
       a {
         height: 32px;
@@ -50,7 +52,10 @@ header {
       display: flex;
       flex-flow: row nowrap;
       justify-content: center;
-      margin-left: 1.5rem;
+
+      @include breakpoint(medium) {
+        margin-left: 1.5rem;
+      }
     }
   }
 }

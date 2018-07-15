@@ -1,0 +1,35 @@
+uuid: 68665501-134f-4d95-b24f-45a67c8b8f62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage.field_flex_grid
+    - field.field.node.homepage.field_sub_title
+    - node.type.homepage
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.homepage.default
+targetEntityType: node
+bundle: homepage
+mode: default
+content:
+  field_flex_grid:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_sub_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  links: true

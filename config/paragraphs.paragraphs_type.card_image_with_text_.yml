@@ -1,0 +1,9 @@
+uuid: 31f656ef-1d70-46b8-a97f-030279ba4ab3
+langcode: en
+status: true
+dependencies: {  }
+id: card_image_with_text_
+label: 'Card (image with text)'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

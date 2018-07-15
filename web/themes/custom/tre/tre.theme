@@ -5,8 +5,7 @@
 /**
  * Implements hook_preprocess_block()
  */
-function tre_preprocess_block(&$variables) {
-}
+function tre_preprocess_block(&$variables) {}
 
 /**
  * Implements template_preprocess_field().
@@ -34,11 +33,30 @@ function tre_preprocess_node(&$variables) {}
  *
  * Add convenience variables and template suggestions
  */
-function tre_preprocess_page(&$variables) {}
+function tre_preprocess_page(&$variables) {
+  if (array_key_exists('node', $variables)) {
+    $node = $variables['node'];
+    if ($node) {
+      $node_type = $node->getType();
+      if ($node_type == 'panel') {
+        $variables['panel_container'] = 'panel-container';
+      }
+      if ($node_type == 'homepage'){
+        $variables['#attached']['library'][] = 'tre/homepage';
+      }
+    }
+  }
+  
+}
 
 /**
  * Implements template_preprocess_views_view().
  */
 function tre_preprocess_views_view(&$variables) {}
 
-function tre_preprocess_page_title(&$variables) {}
+function tre_preprocess_page_title(&$variables) {
+  // Render title as HTML
+  $title = html_entity_decode(strip_tags($variables['title']));
+  $variables['title'] = $title;
+  $variables['home_page'] = true;
+}

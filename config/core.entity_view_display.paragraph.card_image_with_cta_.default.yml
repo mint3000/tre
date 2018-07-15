@@ -1,0 +1,38 @@
+uuid: 3b587cc9-a01b-4ffe-8e4a-9cb98886e39e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_image_with_cta_.field_card_cta
+    - field.field.paragraph.card_image_with_cta_.field_card_image
+    - paragraphs.paragraphs_type.card_image_with_cta_
+  module:
+    - image
+    - link
+id: paragraph.card_image_with_cta_.default
+targetEntityType: paragraph
+bundle: card_image_with_cta_
+mode: default
+content:
+  field_card_cta:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_card_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }
