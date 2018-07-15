@@ -1,0 +1,40 @@
+uuid: 7e0f9d32-fea0-4351-814a-1093ccfffc10
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.button_comparison.field_compare_link
+    - field.field.paragraph.button_comparison.field_compare_link_1
+    - paragraphs.paragraphs_type.button_comparison
+  module:
+    - link
+id: paragraph.button_comparison.default
+targetEntityType: paragraph
+bundle: button_comparison
+mode: default
+content:
+  field_compare_link:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_compare_link_1:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

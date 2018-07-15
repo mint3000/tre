@@ -1,0 +1,9 @@
+uuid: cc781b73-893a-4acd-a8ed-0353b9779200
+langcode: en
+status: true
+dependencies: {  }
+id: panel_body_with_image_
+label: 'Panel (Body with Image)'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,9 +1,9 @@
-uuid: 88374e1d-3981-4321-a2b3-1281491973f3
+uuid: 0cde5950-a26b-47f0-9327-677721e18c53
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:header_blocks:12724a1c-8924-47e1-a793-860a9b47d972'
+    - 'block_content:header_blocks:8547d42b-2c50-4901-a188-2359fdf2bcc6'
   module:
     - block_content
   theme:
@@ -13,9 +13,9 @@ theme: tre
 region: header
 weight: -6
 provider: null
-plugin: 'block_content:12724a1c-8924-47e1-a793-860a9b47d972'
+plugin: 'block_content:8547d42b-2c50-4901-a188-2359fdf2bcc6'
 settings:
-  id: 'block_content:12724a1c-8924-47e1-a793-860a9b47d972'
+  id: 'block_content:8547d42b-2c50-4901-a188-2359fdf2bcc6'
   label: 'Social Links'
   provider: block_content
   label_display: '0'
