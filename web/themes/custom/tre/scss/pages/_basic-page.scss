@@ -1,35 +1,37 @@
 .node--type-page {
-  .block-tre-page-title {
-    display: none;
-  }
+  .main-container {
+    .block-tre-page-title {
+      display: none;
+    }
 
-  h3 {
-    color: $tre-orange;
-    font-family: 'Yrsa', serif;
-    font-size: rem-calc(32);
-    font-weight: 700;
-    margin: 0 0 1rem;
-  }
+    h3 {
+      color: $tre-orange;
+      font-family: 'Yrsa', serif;
+      font-size: rem-calc(32);
+      font-weight: 700;
+      margin: 0 0 1rem;
+    }
 
-  p {
-    color: $tre-purple;
-    font-family: 'Yrsa', serif;
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-  }
+    p {
+      color: $tre-purple;
+      font-family: 'Yrsa', serif;
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+    }
 
-  .field-name-field-lead-body p {
-    font-size: 2rem;
-    line-height: 2.25rem;
-  }
+    .field-name-field-lead-body p {
+      font-size: 2rem;
+      line-height: 2.25rem;
+    }
 
-  blockquote {
-    border: none;
-    color: $tre-purple;
-    font-family: 'Yrsa', serif;
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    margin: 0 auto 1rem;
-    max-width: 75%;
+    blockquote {
+      border: none;
+      color: $tre-purple;
+      font-family: 'Yrsa', serif;
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      margin: 0 auto 1rem;
+      max-width: 75%;
+    }
   }
 }
