@@ -1,0 +1,25 @@
+uuid: e260b473-0a6a-4de7-9f38-f88fc3ebaa76
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:header_blocks:f1214bd7-6be4-48d6-b322-0e3f35b54a6e'
+  module:
+    - block_content
+  theme:
+    - tre
+id: bookacallcta
+theme: tre
+region: header
+weight: -5
+provider: null
+plugin: 'block_content:f1214bd7-6be4-48d6-b322-0e3f35b54a6e'
+settings:
+  id: 'block_content:f1214bd7-6be4-48d6-b322-0e3f35b54a6e'
+  label: 'Book a Call CTA'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

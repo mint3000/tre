@@ -9,6 +9,17 @@ p {
   line-height: 1;
 }
 
+.main-container {
+  &.panel-container {
+    align-items: center;
+    background-color: $tre-purple;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    min-height: calc(100vh - 115px);
+  }
+}
+
 .home-content-container {
   .block-tre-content {
     margin: 0 auto;
@@ -35,4 +46,12 @@ p {
     flex-flow: row wrap;
     justify-content: center;
   }
+}
+
+.grid-horz-center {
+  justify-content: center;
+}
+
+.grid-vert-center {
+  align-items: center;
 }

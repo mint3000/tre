@@ -12,3 +12,4 @@ fonts:
 homepage:
   js:
     js/homepage.js: {}
+    node_modules/jquery-scrollify/jquery.scrollify.js: {}

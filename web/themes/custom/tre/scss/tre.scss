@@ -41,6 +41,17 @@ $flex: false;
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+@include foundation-xy-grid-classes(
+  $base-grid: true,
+  $margin-grid: true,
+  $padding-grid: true,
+  $block-grid: true,
+  $collapse: true,
+  $offset: true,
+  $vertical-grid: true,
+  $frame-grid: true
+);
+
 // Components
 
 // Import our mixins early so they can be used by other partials.
@@ -66,12 +77,14 @@ $flex: false;
 @import 'layout/main';
 @import 'layout/aside';
 @import 'layout/footer';
+@import 'layout/node--type-panel';
 
 // Modules
 // @import 'modules/block';
 @import 'modules/button';
 @import 'modules/icons';
 @import 'modules/mc_form';
+@import 'modules/card-image-with-text';
 
 // Pages
 @import 'pages/home-page';

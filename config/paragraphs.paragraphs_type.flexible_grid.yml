@@ -1,0 +1,9 @@
+uuid: 10a05f12-e77c-43d5-971c-722cf3bb54c2
+langcode: en
+status: true
+dependencies: {  }
+id: flexible_grid
+label: 'Flexible Grid'
+icon_uuid: null
+description: 'Flex box grid'
+behavior_plugins: {  }

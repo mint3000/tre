@@ -9,6 +9,12 @@ services:
     type: node:8.9
     globals:
       gulp-cli: "latest"
+  appserver:
+    config:
+      conf: config/php/php.ini
+  database:
+    config:
+      confd: config/mysql
 tooling:
   node:
     service: node

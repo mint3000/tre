@@ -1,0 +1,17 @@
+uuid: e636b326-6f9b-4333-93a7-52fa87942ab2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Panel
+type: panel
+description: 'These panels are used for the first introductory screens when a user enters through the homepage.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

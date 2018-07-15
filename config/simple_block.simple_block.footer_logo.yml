@@ -1,0 +1,11 @@
+uuid: aca6bc84-f439-4248-8e2e-80be01006ea7
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+id: footer_logo
+title: 'Footer Logo'
+content:
+  value: "<p><img alt=\"The Ring Effect logo\" data-entity-type=\"file\" data-entity-uuid=\"01080b99-77aa-4749-ae5c-f5c772cb3979\" src=\"/sites/default/files/inline-images/footer-logo.png\" /></p>\r\n"
+  format: basic_html
