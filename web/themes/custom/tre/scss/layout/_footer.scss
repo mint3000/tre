@@ -24,6 +24,33 @@ footer {
     flex-flow: row nowrap;
     justify-content: flex-start;
   }
+
+  .menu {
+    margin-bottom: 1rem;
+
+    li {
+      display: block;
+
+      a {
+        color: $tre-dark-grey;
+        padding: 0.5rem 0;
+      }
+    }
+  }
+
+  .social-container {
+    justify-content: flex-start;
+
+    a {
+      margin-right: 1rem;
+    }
+
+    svg {
+      path {
+        fill: $tre-dark-grey;
+      }
+    }
+  }
 }
 .bottom-bar {
   margin-bottom: 2rem;

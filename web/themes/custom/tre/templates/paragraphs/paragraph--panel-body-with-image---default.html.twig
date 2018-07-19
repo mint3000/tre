@@ -50,12 +50,14 @@
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
       {% set selectedTheme = content.field_panel_theme['#items'].getString() %}
-      <div class="grid-x {{ selectedTheme }}">
-        <div class="cell medium-6 grid-x grid-horz-center grid-vert-center">
-          {{ content.field_panel_body }}
-        </div>
-        <div class="cell medium-6 grid-x grid-horz-center grid-vert-center">
-          {{ content.field_panel_image }}
+      <div class="{{ selectedTheme }}">
+        <div class="grid-x row">
+          <div class="cell medium-6 grid-x grid-horz-center grid-vert-center">
+            {{ content.field_panel_body }}
+          </div>
+          <div class="cell medium-6 grid-x grid-horz-center grid-vert-center">
+            {{ content.field_panel_image }}
+          </div>
         </div>
       </div>
     {% endblock %}
