@@ -1,3 +1,7 @@
 .field-paragraph--field-body {
-  padding: 3rem 6rem;
+  padding: 1rem 2rem;
+
+  @include breakpoint(medium) {
+    padding: 3rem 6rem;
+  }
 }

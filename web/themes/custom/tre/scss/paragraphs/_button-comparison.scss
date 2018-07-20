@@ -1,6 +1,11 @@
 .paragraph--type--button-comparison {
   margin: 0 auto 2rem;
-  max-width: 45%;
+  max-width: 85%;
+
+  @include breakpoint(medium) {
+    margin: 0 auto 2rem;
+    max-width: 45%;
+  }
 
   .button {
     min-width: 100%;
