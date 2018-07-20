@@ -10,8 +10,12 @@ footer {
   }
 
   .block-footerlogo {
+    margin: 0 0 1rem;
     max-width: 50px;
-    margin-right: 1rem;
+
+    @include breakpoint(medium) {
+      margin: 0 1rem 0 0;
+    }
 
     p {
       margin: 0;
@@ -21,8 +25,13 @@ footer {
   #footer-first {
     align-items: center;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
+    flex-flow: column nowrap;
+    justify-content: center;
+
+    @include breakpoint(medium) {
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+    }
   }
 
   .menu {
@@ -39,10 +48,18 @@ footer {
   }
 
   .social-container {
-    justify-content: flex-start;
+    justify-content: center;
+
+    @include breakpoint(medium) {
+      justify-content: flex-start;
+    }
 
     a {
       margin-right: 1rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
     }
 
     svg {
@@ -51,7 +68,18 @@ footer {
       }
     }
   }
+
+  .columns {
+    margin-bottom: 2rem;
+    text-align: center;
+
+    @include breakpoint(medium) {
+      margin-bottom: auto;
+      text-align: left;
+    }
+  }
 }
+
 .bottom-bar {
   margin-bottom: 2rem;
   text-align: center;

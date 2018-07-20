@@ -1,0 +1,10 @@
+.menu {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  @include breakpoint(medium) {
+    display: inline-block;
+  }
+}
