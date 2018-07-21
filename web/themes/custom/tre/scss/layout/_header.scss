@@ -7,7 +7,7 @@ header {
       align-items: center;
       display: flex;
       flex-flow: column wrap;
-      @include breakpoint(medium) {
+      @include breakpoint(large) {
         flex-flow: row nowrap;
       }
 
@@ -21,7 +21,7 @@ header {
     .block-tre-main-menu {
       justify-self: center;
 
-      @include breakpoint(medium) {
+      @include breakpoint(large) {
         margin-left: auto;
       }
 

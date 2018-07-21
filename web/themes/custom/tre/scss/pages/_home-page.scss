@@ -66,6 +66,16 @@
       @include breakpoint(medium) {
         padding: 0;
       }
+
+      .paragraph--type--card-image-with-cta- {
+        margin: 0 auto 2rem;
+        max-width: 70%;
+
+        @include breakpoint(medium) {
+          margin: 0 auto auto;
+          max-width: 100%;
+        }
+      }
     }
 
     .field-node--field-flex-grid {

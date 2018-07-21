@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.card_image_with_text_.field_card_image
+    - field.field.paragraph.card_image_with_text_.field_card_link
     - field.field.paragraph.card_image_with_text_.field_card_text
     - paragraphs.paragraphs_type.card_image_with_text_
   module:
@@ -22,6 +23,14 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_card_link:
+    weight: 2
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   field_card_text:
     weight: 1

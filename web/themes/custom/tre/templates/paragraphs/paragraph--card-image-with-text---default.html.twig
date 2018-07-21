@@ -49,7 +49,12 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {{ content }}
+      <a href="{{ content.field_card_link.0['#url'] }}">
+        {{ content.field_card_image }}
+      </a>
+      <a href="{{ content.field_card_link.0['#url'] }}">
+        {{ content.field_card_text }}
+      </a>
     {% endblock %}
   </div>
 {% endblock paragraph %}

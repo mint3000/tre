@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.card_image_with_text_.field_card_image
+    - field.field.paragraph.card_image_with_text_.field_card_link
     - field.field.paragraph.card_image_with_text_.field_card_text
     - image.style.thumbnail
     - paragraphs.paragraphs_type.card_image_with_text_
@@ -22,6 +23,15 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_card_link:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   field_card_text:
     weight: 1

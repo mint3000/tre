@@ -1,0 +1,28 @@
+uuid: ade4cc2a-4d8b-447b-b019-1d3b4fa437b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_link
+    - node.type.page
+    - paragraphs.paragraphs_type.card_image_with_text_
+id: paragraph.card_image_with_text_.field_card_link
+field_name: field_card_link
+entity_type: paragraph
+bundle: card_image_with_text_
+label: 'Card Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      page: page
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -59,7 +59,7 @@ samples:
   ]
 %}
 <div class="row">
-  <div{{ attributes.addclass(classes, 'field__items grid-x grid-margin-x grid-horz-center') }}>
+  <div{{ attributes.addclass(classes, 'field__items grid-x grid-margin-x grid-horz-center grid-vert-center') }}>
     {% for item in items %}
       <div{{ item.attributes.addClass('field__item cell medium-4') }}>{{ item.content }}</div>
     {% endfor %}
