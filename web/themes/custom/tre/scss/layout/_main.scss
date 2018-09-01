@@ -11,12 +11,7 @@ p {
 
 .main-container {
   &.panel-container {
-    align-items: center;
     background-color: $tre-purple;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    min-height: calc(100vh - 115px);
   }
 }
 
