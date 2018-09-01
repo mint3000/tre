@@ -13,3 +13,6 @@ homepage:
   js:
     js/homepage.js: {}
     node_modules/jquery-scrollify/jquery.scrollify.js: {}
+panels:
+  js:
+    js/panels.js: {}
