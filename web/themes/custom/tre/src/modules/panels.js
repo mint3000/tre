@@ -23,7 +23,9 @@ const Panel = {
     }, 500))
   },
   _addTips() {
-    let tip = tippy('.svg');
+    let tip = tippy('.svg', {
+      theme: 'honeybee',
+    });
     return tip;
   }
 }
