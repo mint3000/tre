@@ -1,6 +1,10 @@
 .field-name-field-lead-body {
   font-family: 'Yrsa', serif;
-  padding: 3rem 6rem;
+  padding: 1rem 2rem;
+
+  @include breakpoint(medium) {
+    padding: 3rem 6rem;
+  }
 
   p {
     color: $tre-purple;

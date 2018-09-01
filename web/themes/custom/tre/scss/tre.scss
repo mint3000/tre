@@ -66,13 +66,17 @@ $flex: false;
 // Drupal specific styles (to fix Drupalisms).
 @import 'base/drupal';
 
+// Components
+@import 'components/menu';
+
 // Styling for elements.
 // Optional.
 // @import 'base/elements';
 
 // Fields
-@import 'fields/field-lead-body';
 @import 'fields/field-body';
+@import 'fields/field-image';
+@import 'fields/field-lead-body';
 
 // Layout
 // Each section of the document has it's own partial seperated out to improve

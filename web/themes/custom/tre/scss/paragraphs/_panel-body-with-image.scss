@@ -1,4 +1,8 @@
 .paragraph--type--panel-body-with-image- {
+  .theme {
+    padding: 1rem 0;
+  }
+
   .theme-purple {
     background-color: $tre-purple;
 
@@ -33,7 +37,7 @@
 
   .field-paragraph--field-panel-body {
     img {
-      max-width: 100px;
+      max-width: 125px;
     }
   }
 
@@ -47,6 +51,10 @@
     padding: 0;
     text-align: center;
     width: 100%;
+
+    @include breakpoint(large) {
+      font-size: rem-calc(64);
+    }
 
     em {
       font-family: 'suomi', cursive;

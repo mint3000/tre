@@ -5,9 +5,22 @@
 
   .tre-panel {
     background-color: $tre-purple;
+    padding: 2rem 0;
   }
 
   .grid-x {
-    margin: 1rem 0;
+    @include breakpoint(medium) {
+      margin: 1rem 0;
+    }
+  }
+
+  .paragraph--type--card-image-with-text- {
+    margin: 0 auto 2rem;
+    max-width: 70%;
+
+    @include breakpoint(medium) {
+      margin: 0 auto auto;
+      max-width: 100%;
+    }
   }
 }
