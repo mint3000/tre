@@ -45,7 +45,7 @@ function tre_preprocess_page(&$variables) {
         $variables['#attached']['library'][] = 'tre/homepage';
       }
       
-      if ($node->id() == 6) {
+      if ($node->id() == 6 || $node->id() == 7 || $node->id() == 8) {
         $variables['#attached']['library'][] = 'tre/panels';
       }
     }

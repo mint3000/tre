@@ -1,5 +1,5 @@
 .panel-container {
-  .ceo-svg-main {
+  .entrepreneur-svg-main {
     @include breakpoint(medium) {
       width: 35%;
       top: 7%;
@@ -9,7 +9,7 @@
     }
   }
 
-  .ceo-bubble-1 {
+  .entrepreneur-bubble-1 {
     @include breakpoint(medium) {
       width: 25%;
       top: 1%;
@@ -17,7 +17,7 @@
     }
   }
 
-  .ceo-bubble-2 {
+  .entrepreneur-bubble-2 {
     @include breakpoint(medium) {
       width: 32%;
       top: 45%;
@@ -25,7 +25,7 @@
     }
   }
 
-  .ceo-bubble-3 {
+  .entrepreneur-bubble-3 {
     @include breakpoint(medium) {
       width: 25%;
       top: 54%;
@@ -33,7 +33,7 @@
     }
   }
 
-  .ceo-bubble-4 {
+  .entrepreneur-bubble-4 {
     @include breakpoint(medium) {
       width: 23%;
       top: 50%;
@@ -41,7 +41,7 @@
     }
   }
 
-  .ceo-bubble-5 {
+  .entrepreneur-bubble-5 {
     @include breakpoint(medium) {
       width: 28%;
       top: 4%;

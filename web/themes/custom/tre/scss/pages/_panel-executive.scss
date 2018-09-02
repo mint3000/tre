@@ -1,0 +1,67 @@
+.panel-container {
+  .executive-svg-main {
+    @include breakpoint(medium) {
+      width: 35%;
+      top: 7%;
+      height: auto;
+      left: 50%;
+      transform: translateX(-50%);  
+    }
+  }
+
+  .executive-bubble-1 {
+    @include breakpoint(medium) {
+      width: 25%;
+      top: 1%;
+      left: 8%;
+    }
+  }
+
+  .executive-bubble-2 {
+    @include breakpoint(medium) {
+      width: 28%;
+      top: 25%;
+      left: -1%;
+    }
+  }
+
+  .executive-bubble-3 {
+    @include breakpoint(medium) {
+      width: 27%;
+      top: 54%;
+      left: 10%;
+    }
+  }
+
+  .executive-bubble-4 {
+    @include breakpoint(medium) {
+      width: 23%;
+      top: 55%;
+      left: 37%;
+    }
+  }
+
+  .executive-bubble-5 {
+    @include breakpoint(medium) {
+      width: 26%;
+      top: 44%;
+      right: 15%;
+    }
+  }
+
+  .executive-bubble-6 {
+    @include breakpoint(medium) {
+      width: 28%;
+      top: 27%;
+      right: 5%;
+    }
+  }
+
+  .executive-bubble-7 {
+    @include breakpoint(medium) {
+      width: 26%;
+      top: 1%;
+      right: 9%;
+    }
+  }
+}

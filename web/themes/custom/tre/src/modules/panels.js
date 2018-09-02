@@ -25,6 +25,10 @@ const Panel = {
   _addTips() {
     let tip = tippy('.svg', {
       theme: 'honeybee',
+      arrow: true,
+      arrowType: 'round',
+      arrowTransform: 'scaleX(1.75) scaleY(1.75)',
+      size: 'large',
     });
     return tip;
   }
