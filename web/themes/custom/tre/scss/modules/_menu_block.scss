@@ -1,0 +1,16 @@
+nav {
+  div.title-bar {
+    align-self: flex-start;
+    background: #efefef;
+    color: #333;
+    .menu-icon::after {
+      background: #333;
+      box-shadow: 0 7px 0 #333, 0 14px 0 #333;
+    }
+  }
+  .menu {
+    &.top-bar {
+      background: transparent;
+    }
+  }
+}
