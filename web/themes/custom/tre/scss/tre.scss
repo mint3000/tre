@@ -98,7 +98,10 @@ $flex: false;
 // Pages
 @import 'pages/home-page';
 @import 'pages/basic-page';
+@import 'pages/panels';
 @import 'pages/panel-ceo';
+@import 'pages/panel-entrepreneur';
+@import 'pages/panel-executive';
 
 // Paragraphs
 @import 'paragraphs/button-comparison';
