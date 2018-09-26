@@ -121,46 +121,64 @@
           <a id="main-content"></a>
           <section class="panel">
             {# CUSTOM PAGE ELEMENTS AHEAD - CLIENT REQUESTED THAT THIS DIDN'T NEED TO BE IN THE CMS #}
-            
+
             <div class="svg ceo-svg-main">
               {% include '/themes/custom/tre/images/home-panel-ceo/ceo-main.svg' %}
             </div>
 
             <div class="svg ceo-bubble-1" title="Our branding just plain sucks!">
-              {% include '/themes/custom/tre/images/home-panel-ceo/ceo-1-bubble-all.svg' %}
+              <a href="{{ path('entity.node.canonical', {'node': 9}) }}">
+                {% include '/themes/custom/tre/images/home-panel-ceo/ceo-1-bubble-all.svg' %}
+              </a>
               <div class="caption">
-                <p>Our branding just plain sucks!</p>
-              </div> 
+                <p>
+                  <a href="{{ path('entity.node.canonical', {'node': 9}) }}">Our branding just plain sucks!</a>
+                </p>
+              </div>
             </div>
 
             <div class="svg ceo-bubble-2" title="Our team doesn't see the vision">
-              {% include '/themes/custom/tre/images/home-panel-ceo/ceo-2-bubble-all.svg' %}
+              <a href="{{ path('entity.node.canonical', {'node': 10}) }}">
+                {% include '/themes/custom/tre/images/home-panel-ceo/ceo-2-bubble-all.svg' %}
+              </a>
               <div class="caption">
-                <p>Our team doesn't see the vision</p>
-              </div> 
+                <p>
+                  <a href="{{ path('entity.node.canonical', {'node': 10}) }}">Our team doesn't see the vision</a>
+                </p>
+              </div>
             </div>
 
             <div class="svg ceo-bubble-3" title="We've hit a revenue plateau">
-              {% include '/themes/custom/tre/images/home-panel-ceo/ceo-3-bubble-all.svg' %}
+              <a href="{{ path('entity.node.canonical', {'node': 11}) }}">
+                {% include '/themes/custom/tre/images/home-panel-ceo/ceo-3-bubble-all.svg' %}
+              </a>
               <div class="caption">
-                <p>We've hit a revenue plateau</p>
-              </div> 
+                <p>
+                  <a href="{{ path('entity.node.canonical', {'node': 11}) }}">We've hit a revenue plateau</a>
+                </p>
+              </div>
             </div>
 
             <div class="svg ceo-bubble-4" title="We need to find our uniqueness">
-              {% include '/themes/custom/tre/images/home-panel-ceo/ceo-4-bubble-all.svg' %}
+              <a href="{{ path('entity.node.canonical', {'node': 12}) }}">
+                {% include '/themes/custom/tre/images/home-panel-ceo/ceo-4-bubble-all.svg' %}
+              </a>
               <div class="caption">
-                <p>We need to find our uniqueness</p>
-              </div> 
+                <p>
+                  <a href="{{ path('entity.node.canonical', {'node': 12}) }}">We need to find our uniqueness</a>
+                </p>
+              </div>
             </div>
 
             <div class="svg ceo-bubble-5" title="We're not communicating as a team">
-              <a href="/node/5">
+              <a href="{{ path('entity.node.canonical', {'node': 5}) }}">
                 {% include '/themes/custom/tre/images/home-panel-ceo/ceo-5-bubble-all.svg' %}
               </a>
               <div class="caption">
-                <p><a href="/node/5">We're not communicating as a team</a></p>
-              </div> 
+                <p>
+                  <a href="{{ path('entity.node.canonical', {'node': 5}) }}">We're not communicating as a team</a>
+                </p>
+              </div>
             </div>
 
             {# CUSTOM PAGE ELEMENTS ENDED #}

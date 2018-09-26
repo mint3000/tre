@@ -121,56 +121,65 @@
           <a id="main-content"></a>
           <section class="panel">
             {# CUSTOM PAGE ELEMENTS AHEAD - CLIENT REQUESTED THAT THIS DIDN'T NEED TO BE IN THE CMS #}
-            
+
             <div class="svg entrepreneur-svg-main">
               {% include '/themes/custom/tre/images/home-panel-entrepreneur/entrepreneur-main.svg' %}
             </div>
 
             <div class="svg entrepreneur-bubble-1" title="I want to be able to explain all that I do... clearly">
-              <a href="#">
+              <a href="{{ path('entity.node.canonical', {'node': 13}) }}">
                 {% include '/themes/custom/tre/images/home-panel-entrepreneur/entrepreneur-1-bubble-all.svg' %}
               </a>
               <div class="caption">
-                <p><a href="#">I want to be able to explain all that I do... clearly</a></p>
-              </div> 
+                <p>
+                  <a href="{{ path('entity.node.canonical', {'node': 13}) }}">I want to be able to explain all that I do... clearly</a>
+                </p>
+              </div>
             </div>
 
             <div class="svg entrepreneur-bubble-2" title="I want to create my own signature process">
-              <a href="#">
+              <a href="{{ path('entity.node.canonical', {'node': 14}) }}">
                 {% include '/themes/custom/tre/images/home-panel-entrepreneur/entrepreneur-2-bubble-all.svg' %}
               </a>
               <div class="caption">
-                <p><a href="#">I want to create my own signature process</a></p>
-              </div> 
+                <p>
+                  <a href="{{ path('entity.node.canonical', {'node': 14}) }}">I want to create my own signature process</a>
+                </p>
+              </div>
             </div>
 
             <div class="svg entrepreneur-bubble-3" title="I want to combine all my experience in a clear way">
-              <a href="#">
+              <a href="{{ path('entity.node.canonical', {'node': 15}) }}">
                 {% include '/themes/custom/tre/images/home-panel-entrepreneur/entrepreneur-3-bubble-all.svg' %}
-              </a>  
+              </a>
               <div class="caption">
-                <p><a href="#">I want to combine all my experience in a clear way</a></p>
-              </div> 
+                <p>
+                  <a href="{{ path('entity.node.canonical', {'node': 15}) }}">I want to combine all my experience in a clear way</a>
+                </p>
+              </div>
             </div>
 
             <div class="svg entrepreneur-bubble-4" title="I want to know what makes my business unique">
-              <a href="#">
+              <a href="{{ path('entity.node.canonical', {'node': 16}) }}">
                 {% include '/themes/custom/tre/images/home-panel-entrepreneur/entrepreneur-4-bubble-all.svg' %}
-              </a>  
+              </a>
               <div class="caption">
-                <p><a href="#">I want to know what makes my business unique</a></p>
-              </div> 
+                <p>
+                  <a href="{{ path('entity.node.canonical', {'node': 16}) }}">I want to know what makes my business unique</a>
+                </p>
+              </div>
             </div>
 
             <div class="svg entrepreneur-bubble-5" title="I want a brand that feels more like me">
-              <a href="#">
+              <a href="{{ path('entity.node.canonical', {'node': 17}) }}">
                 {% include '/themes/custom/tre/images/home-panel-entrepreneur/entrepreneur-5-bubble-all.svg' %}
               </a>
               <div class="caption">
-                <p><a href="#">I want a brand that feels more like me</a></p>
-              </div> 
+                <p>
+                  <a href="{{ path('entity.node.canonical', {'node': 17}) }}">I want a brand that feels more like me</a>
+                </p>
+              </div>
             </div>
-
 
             {# CUSTOM PAGE ELEMENTS ENDED #}
           </section>
